@@ -1,0 +1,103 @@
+.bg-physics {
+  background-color: #007bff !important;
+  color: white;
+}
+
+.bg-chemistry {
+  background-color: #ffd700 !important;
+  color: black;
+}
+
+.bg-astronomy {
+  background-color: #9932cc !important;
+  color: white;
+}
+
+.bg-geology {
+  background-color: #228b22 !important;
+  color: white;
+}
+
+/* Life Sciences */
+.bg-biology {
+  background-color: #28a745 !important;
+  color: white;
+}
+
+.bg-anatomy {
+  background-color: #ff4500 !important;
+  color: white;
+}
+
+.bg-genetics {
+  background-color: #ff6347 !important;
+  color: white;
+}
+
+.bg-ecology {
+  background-color: #008000 !important;
+  color: white;
+}
+
+/* Social Sciences */
+.bg-psychology {
+  background-color: #ff1493 !important;
+  color: white;
+}
+
+.bg-sociology {
+  background-color: #ff8c00 !important;
+  color: white;
+}
+
+.bg-economics {
+  background-color: #ffd700 !important;
+  color: black;
+}
+
+.bg-political-science {
+  background-color: #4169e1 !important;
+  color: white;
+}
+
+/* Humanities */
+.bg-history {
+  background-color: #6b8e23 !important;
+  color: white;
+}
+
+.bg-literature {
+  background-color: #800080 !important;
+  color: white;
+}
+
+.bg-philosophy {
+  background-color: #a0522d !important;
+  color: white;
+}
+
+.bg-arts {
+  background-color: #ff4500 !important;
+  color: white;
+}
+
+/* Engineering and Technology */
+.bg-computer-science {
+  background-color: #4682b4 !important;
+  color: white;
+}
+
+.bg-mechanical-engg {
+  background-color: #ff6347 !important;
+  color: white;
+}
+
+.bg-electrical-engg {
+  background-color: #ffa500 !important;
+  color: white;
+}
+
+.bg-civil-engg {
+  background-color: #8b4513 !important;
+  color: white;
+}
