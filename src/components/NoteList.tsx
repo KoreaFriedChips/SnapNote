@@ -41,7 +41,8 @@ export function NoteList({availableTags, notes, deleteTag, updateTag}: NoteListP
     <>
       <Row className="align-items-center mb-4">
         <Col>
-          <h1>Notes</h1>
+          <h1>SnapNote</h1>
+          <h3>Note taking made easy</h3>
         </Col>
         <Col xs="auto">
           <Stack direction="horizontal" gap={2}>
@@ -82,6 +83,7 @@ export function NoteList({availableTags, notes, deleteTag, updateTag}: NoteListP
                     })
                   );
                 }}
+                className="text-dark"
               />
             </Form.Group>
           </Col>
@@ -104,7 +106,7 @@ function NoteCard({id, title, tags}: SimpleNote) {
         <Card as={Link} to={`/${id}`} className={`h-100 text-reset text-decoration-none ${styles.card}`}>
             <Card.Body>
                 <Stack gap={2} className="align-items-center justify-content-center h-100">
-                    <span className="fs-5">{title}</span>
+                    <span className="fs-5 text-dark">{title}</span>
                     <Stack gap={1} direction="horizontal" className="justify-content-center flex-wrap">
                         {tags.map(tag => (
                             <Badge key={tag.id} className={`text-truncate ${tagColourMapping[tag.label.toLowerCase()] || ""}`}>{tag.label}</Badge>

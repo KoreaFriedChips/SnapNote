@@ -10,7 +10,7 @@ type NewNoteProps = {
 export function NewNote({onSubmit, onAddTag, availableTags}: NewNoteProps) {
     return (
         <>  
-            <h1>NEW</h1>
+            <h1 className="mb-4">Create a new note</h1>
             <NoteForm  onSubmit={onSubmit} onAddTag={onAddTag} availableTags={availableTags}/>
         </>
     );

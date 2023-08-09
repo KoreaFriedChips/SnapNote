@@ -102,6 +102,7 @@ export function NoteForm({
           <Form.Control
             ref={markdownRef}
             defaultValue={markdown}
+            placeholder={markdown ? "" : "# Learn markdown"}
             required
             as="textarea"
             rows={15}
