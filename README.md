@@ -5,10 +5,14 @@ SnapNote is a note-taking app designed to provide a seamless experience for orga
 ## Features
 
 - User-friendly interface for reading and writing notes in markdown
-- Custom tags that can be added and removed seamlessly
+- Custom colour coded tags that can be added and removed seamlessly
 - Upload photos of textbook pages or drawings from class to organize images and avoid clutter in your camera roll
+- Search for notes by title or by tag
 - Responsive design for optimal user experience on all devices
 - Dark mode feature for studying at night
+
+![edit](/assets/images/edit.png)
+![list](/assets/images/list.png)
 
 ## Tech Stack
 
