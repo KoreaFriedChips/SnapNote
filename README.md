@@ -11,8 +11,8 @@ SnapNote is a note-taking app designed to provide a seamless experience for orga
 - Responsive design for optimal user experience on all devices
 - Dark mode feature for studying at night
 
-![edit](/src/assets/images/edit.png)
-![list](/src/assets/images/list.png)
+![edit](/src/assets/edit.png)
+![list](/src/assets/list.png)
 
 ## Tech Stack
 
